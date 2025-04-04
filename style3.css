@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  
+
+  }
+  .navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%; 
+       box-sizing: border-box;
+       border-radius: 8px;
+        margin-bottom: 20px; 
+       animation: fadeIn 2s ease-in;
+       /* margin-top: 20px; */
+       /* margin-bottom: 20px; */
+       /* margin-left: 20px; */
+       /* margin-right: 20px; */
+        padding: 20px; 
+       border: 2px solid #ccc;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       background-color: #0b7ef1;
+       /* color: #333; */
+       font-family: Arial, sans-serif;
+       font-size: 16px;
+       text-align: center;
+       transition: background-color 0.3s ease;
+  }
+  
+  
+  .navbar a:hover{
+      color: #33e80e;
+      background-color: #007bff;
+      /* color: white; */
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer
+    }
+  
+  .navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #animation-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, black, #333);
+    z-index: 0;
+  }
+  
+  .content {
+    z-index: 1;
+  }
+  
+  button.answer-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.answer-btn:hover {
+    background-color: #ff1a1a;
+    box-shadow: 4px 4px 10px rgba(238, 234, 234, 0.968);
+  }
+  
+  a.home-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f76f0d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a.home-btn:hover {
+    background-color: #45a049;
+  }
+  
